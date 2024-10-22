@@ -11,11 +11,6 @@ main {
   overflow: hidden;
 }
 
-.icon {
-  width: 1em;
-  height: 1em;
-}
-
 #carousel-wrapper {
   width: 50vw;
 }
@@ -36,11 +31,16 @@ main {
   left: 50%; /** relative to other reference point **/
   transform: translate(-50%, -50%); /** relative to itself **/
 }
+
 /* .footer {
   position: absolute;
   bottom: 0;
   min-width: 100vw;
 } */
+.icon {
+  width: 1em;
+  height: 1em;
+}
 
 /* For socials.html */
 .social-card-container {
