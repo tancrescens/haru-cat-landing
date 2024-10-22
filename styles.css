@@ -5,31 +5,7 @@
   width: 1em;
   height: 1em;
 }
+
 /* Media Queries */
 @media screen and (min-width: 480px) {
-  #main {
-    flex-direction: row;
-  }
-
-  #categories {
-    flex-grow: 1;
-    flex-basis: 300px;
-    flex-shrink: 0;
-  }
-
-  #products {
-    flex-grow: 3;
-    flex-basis: 700px;
-    display: flex;
-    justify-content: flex-start; /* default is already flex-start, so not needed) */
-    flex-wrap: wrap;
-  }
-
-  .product {
-    flex-basis: 300px;
-  }
-
-  .product h1 {
-    font-size: 24px;
-  }
 }
