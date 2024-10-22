@@ -3,7 +3,7 @@ main {
   min-width: 100vw;
 }
 
-#navbar {
+.navbar {
   position: sticky;
   z-index: 2000;
   top: 0;
