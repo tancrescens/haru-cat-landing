@@ -1,4 +1,5 @@
 main {
+  position: relative;
   min-height: 100vh;
   min-width: 100vw;
 }
@@ -10,25 +11,48 @@ main {
   overflow: hidden;
 }
 
-#carousel-wrapper {
-  width: 50vw;
-}
-
 .icon {
   width: 1em;
   height: 1em;
 }
 
-/* For socials.html */
-.social-card {
+#carousel-wrapper {
+  width: 50vw;
+}
+
+.article {
+  position: absolute;
+  top: 50%; /** relative to other reference point **/
+  left: 50%; /** relative to other reference point **/
+  transform: translate(-50%, -50%); /** relative to itself **/
+}
+
+.snippet-container {
   position: relative;
 }
-.social-card-container {
+.snippet {
   position: relative;
   top: 50%; /** relative to other reference point **/
   left: 50%; /** relative to other reference point **/
   transform: translate(-50%, -50%); /** relative to itself **/
 }
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  min-width: 100vw;
+} */
+
+/* For socials.html */
+.social-card-container {
+  position: relative;
+}
+.social-card {
+  position: relative;
+  top: 50%; /** relative to other reference point **/
+  left: 50%; /** relative to other reference point **/
+  transform: translate(-50%, -50%); /** relative to itself **/
+}
+
 /* Media Queries */
 
 /* X-Small devices (portrait phones, less than 576px) */
